@@ -23,6 +23,7 @@ twig:
             - 'SyliusWebBundle::forms.html.twig'
     debug:            %kernel.debug%
     strict_variables: %kernel.debug%
+    cache:            false
 
 assetic:
     debug:          %kernel.debug%

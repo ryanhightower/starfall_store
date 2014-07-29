@@ -11,8 +11,14 @@ class AppKernel extends Kernel
     public function registerBundles()
     {
         $bundles = array(
+					//new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle()
         );
 
         return array_merge($bundles, parent::registerBundles());
     }
+		/*
+		public function getCacheDir()
+    {
+        return $this->rootDir.'/'.$this->environment.'/newcache';
+    }*/
 }
