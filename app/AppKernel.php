@@ -12,6 +12,7 @@ class AppKernel extends Kernel
     {
         $bundles = array(
 					//new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle()
+					new Matrx\Bundle\MenuBundle\MatrxMenuBundle()
         );
 
         return array_merge($bundles, parent::registerBundles());

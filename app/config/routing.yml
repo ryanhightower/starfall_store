@@ -1,3 +1,6 @@
+matrx_menu:
+    resource: @MatrxMenuBundle/Resources/config/routing.yml
+
 sylius_installer:
     resource: @SyliusInstallerBundle/Resources/config/routing.yml
 
